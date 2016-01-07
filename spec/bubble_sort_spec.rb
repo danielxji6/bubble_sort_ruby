@@ -34,7 +34,7 @@ describe "#bubble_sort" do
   end
 
   it "handles negative numbers appropriately" do
-    expect( bubble_sort([6,2,-11, 5,3,4]) ).to start_with -11
+    expect( bubble_sort([6,2,-11, 5,3,4]) ).to start_with (-11)
   end
 
   it "handles positive and negative infinity" do
